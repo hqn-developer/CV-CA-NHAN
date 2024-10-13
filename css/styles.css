@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}
+
+.tt {
+  display: grid;
+  grid-template-columns: 1fr 20%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.tt_text > h1 {
+  color: #0e2452;
+  margin: 0;
+  padding: 0;
+}
+
+.tt > img {
+  width: 113px;
+  height: 113px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section > h2 {
+  margin: 0;
+  /* padding: 0; */
+}
+
+.section-content {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  border-bottom: 1px solid #ccc;
+}
+
+.section > ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.da > h2 {
+  margin-bottom: 0;
+}
+
+.da > ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.section > ol {
+  list-style-position: inside;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.section > ol > li a {
+  text-decoration: none;
+}
